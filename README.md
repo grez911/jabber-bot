@@ -1,2 +1,10 @@
-# jabber-bot
-A bot for jabber written in python.
+## Description
+A bot for jabber written in Python 3. If you send message to him, it will resend it to all contacts.
+
+## Installation
+Install [sleekxmpp](https://github.com/fritzy/SleekXMPP) package via pip3.
+Change the following line in script to actual bot login/password pair:
+```
+xmpp = JabberBot('bot_name@hostname', 'password')
+```
+Use [supervisor](http://supervisord.org/) for running this script in the background infinitely. You can find a config file for supervisor in this repository too.
