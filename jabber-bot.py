@@ -38,6 +38,6 @@ if __name__ == '__main__':
     logging.basicConfig(level=logging.WARNING,
                         format='%(levelname)-8s %(message)s')
 
-    xmpp = JabberBot('jabber_id', 'password')
+    xmpp = JabberBot('bot_name@hostname', 'password')
     xmpp.connect()
     xmpp.process(block=True)
