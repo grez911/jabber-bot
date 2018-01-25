@@ -1,5 +1,5 @@
 ## Description
-A bot for jabber written in Python 3. If you send message to him, it will resend it to all contacts.
+A bot for Jabber written in Python 3. If you send message to him, it will resend it to all contacts.
 
 ## Installation
 Install [sleekxmpp](https://github.com/fritzy/SleekXMPP) package via pip3 and change the following line in the script to the actual login/password pair for bot:
